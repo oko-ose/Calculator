@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Hannah">
+	<meta name="description" content="A simple calculator">
+	<meta http-equiv="X-UA-Compactible">
+	<meta name="viewport" content="device-width=1.0">
+
+	<title>My Simple calculator</title>
+
+	<link rel="stylesheet" href="calculator.css">
+	<link rel="//fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<marquee><b><em>A Simple Calculator</em></b></marquee>
+	<div class="container">
+		<form name="sign">
+		<div class="display">
+			<input type="text" name="displayResult" placeholder="0" id="text">
+		</div>
+
+		<div class="button">
+			<input type="button" value="1" id="all" onclick="sign.displayResult.value+='1'">
+			<input type="button" value="2" id="all" onclick="form.displayResult.value+='2'">
+			<input type="button" value="3" id="all" onclick="form.displayResult.value+='3'">
+			<input type="button" value="+" id="all" onclick="sign.displayResult.value+='+'">
+			<br/>
+			<input type="button" value="4" id="all" onclick="sign.displayResult.value+=4">
+			<input type="button" value="5" id="all" onclick="sign.displayResult.value+=5">
+			<input type="button" value="6" id="all" onclick="sign.displayResult.value+=6">
+			<input type="button" value="-" id="all" onclick="sign.displayResult.value+='-'">
+			<br>
+			<input type="button" value="7" id="all" onclick="sign.displayResult.value+=7">
+			<input type="button" value="8" id="all" onclick="sign.displayResult.value+=8">
+			<input type="button" value="9" id="all" onclick="sign.displayResult.value+=9">
+			<input type="button" value="*" id="all" onclick="sign.displayResult.value+='*'">
+			<br/>
+			<input type="button" value="." id="all" onclick="sign.displayResult.value+='.'">
+			<input type="button" value="0" id="all" onclick="sign.displayResult.value+=0">
+			<input type="button" value="," id="all" onclick="sign.displayResult.value+=','">
+			<input type="button" value="/" id="all" onclick="sign.displayResult.value+='/'">
+			<br/>
+			<input type="button" value="=" onclick="sign.displayResult.value=eval(sign.displayResult.value)" class="you">
+			<button value="clear-all" type="reset" class="you">A/C</button>
+		</div>
+	</form>
+	</div>
+</body>
+</html>

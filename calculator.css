@@ -1,0 +1,41 @@
+*{
+	outline: none;
+	-webkit-user-select: none;
+}
+marquee{
+	color: black;
+	background: linear-gradient(blue,white);
+}
+body{
+	background: black;
+}
+#all{
+	background: black;
+	width: 50px;
+	height: 30px;
+	border-radius: 25%;
+	margin-top: 20px;
+	color: #ffffff;
+}
+#text{
+	width: 220px;
+	height: 30px;
+	margin-top: 10px;
+	text-align: right;
+	box-shadow: -2px -3px;
+}
+.you{
+	width: 100px;
+	height: 25px;
+	border-radius: 25%;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: black;
+	color: #ffffff;
+}
+form{
+	background-color: gray;
+	border: 2px solid;
+	text-align: center;
+	box-shadow: 3px 3px 7px whitesmoke;
+}
